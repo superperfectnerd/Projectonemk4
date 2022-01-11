@@ -545,7 +545,7 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   width: 48%;
-  height: 450px;
+  height: 500px;
   border-radius: 15px;
 }
 
@@ -579,27 +579,25 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   width: 48%;
-  height: 450px;
+  height: 500px;
   border-radius: 15px;
 }
 
-.old_port_card {
-  background-color: violet;
+.card_A {
+  background-color: purple;
+}
+
+.card_B {
+  background-color: rosybrown;
+}
+
+.large_card {
+  background-color: grey;
   border-radius: 15px;
 }
 
-.pomegues_card {
+.small_card {
   background-color: yellowgreen;
-  border-radius: 15px;
-}
-
-.calanques_card {
-  background-color: saddlebrown;
-  border-radius: 15px;
-}
-
-.notre_card {
-  background-color: salmon;
   border-radius: 15px;
 }
 
