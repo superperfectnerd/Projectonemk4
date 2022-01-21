@@ -24,14 +24,14 @@
 
   <div id="wrapper">
     <header>
-      <nav>
+      <nav role="main">
         <div id="logo_box">
           <img class="logo" alt="logo" src="Assets/Banner.png">
         </div>
 
         <div id="links">
-          <a href="#accom" class="active">Accomodations</a>
-          <a href="#activities">Activities</a>
+          <a href="#" class="active">Accomodations</a>
+          <a href="#">Activities</a>
         </div>
 
       </nav>
@@ -196,79 +196,125 @@
 <!--Activities-->
 
 
-  <div class="activities_container">
-    <h3 class="activities_heading" id="activetheading">Activities</h3>
+  <section class="active" id="active">
+    <h2>
+      <b>Activities in Marseille</b>
+    </h2>
+    <div class="active-card-wrap">
+      <section class="large_card">
+        <a href="#">
+          <img class="active_large_image" src="Assets/oldport.jpg" alt="old Port">
+          <div class="activities_image_heading">
+            <h3>
+              <b>Old Port</b>
+            </h3>
+          </div>
+        </a>
+      </section>
 
-    <div class="activities_section_1">
+      <div class="second">
+        <section class="activity-card fort">
+          <a href="#">
+            <img class="active_small_image" src="Assets/pomeguesfort.jpg" alt="Pomegues Fort">
+            <div class="activities_image_heading">
+              <h3>
+                <b>Pomègues Fort</b>
+              </h3>
+            </div>
+          </a>
+        </section>
 
-      <div class="card_A">
-        <div class="large_card">
-          <a href="#" target="blank"><img class="activities_image_1" src="Assets/oldport.jpg" alt="Old Port"></a>
-            <h4 class="activities_image_heading_1">Old Port</h4>
-        </div>
+        <section class="activity-card island">
+          <a href="#">
+            <img class="active_small_image" src="Assets/frioulisland.jpg" alt="Frioul Island">
+            <div class="activities_image_heading">
+              <h3>
+                <b>Frioul Island</b>
+              </h3>
+            </div>
+          </a>
+        </section>
       </div>
 
-      <div class="card_B">
-        <div class="small_card">
-          <a href="#" target="blank"><img class="activities_image_2" src="Assets/pomeguesfort.jpg" alt="Pomegues Fort"></a>
-            <h4 class="activities_image_heading_2">Pomègues Fort</h4>
-        </div>
+      <section class="large_card">
+        <a href="#">
+          <img class="active_large_image" src="Assets/calanques.jpg" alt="Calanques national Park">
+          <div class="activities_image_heading">
+            <h3>
+              <b>Calanques National Park</b>
+            </h3>
+          </div>
+        </a>
+      </section>
+
+      <div class="fourth">
+        <section class="activity-card notre">
+          <a href="#">
+            <img class="active_small_image" src="Assets/notredame.jpg" alt="Notre-Dame-de-la-Garde">
+            <div class="activities_image_heading">
+              <h3>
+                <b>Notre-Dame-de-la-Garde</b>
+              </h3>
+            </div>
+          </a>
+        </section>
+
+        <section class="activity-card Longchamp">
+          <a href="#">
+            <img class="active_small_image" src="Assets/longchamppark.jpg" alt="Longchamp Park">
+            <div class="activities_image_heading">
+              <h3>
+                <b>Longchamp Park</b>
+              </h3>
+            </div>
+          </a>
+        </section>
       </div>
 
-      <div class="card_B">
-        <div class="small_card">
-          <a href="#" target="blank"><img class="activities_image_2" src="Assets/frioulisland.jpg" alt="Frioul Island"></a>
-            <h4 class="activities_image_heading_2">Frioul Island</h4>
-        </div>
-      </div>
     </div>
-
-    <div class="activities_section_2">
-
-      <div class="card_A">
-        <div class="large_card">
-          <a href="#" target="blank"><img class="activities_image_1" src="Assets/calanques.jpg" alt="Calanques National Park"></a>
-            <h4 class="activities_image_heading_1">Calanques National Park</h4>
-        </div>
-      </div>
-
-      <div class="card_B">
-        <div class="small_card">
-          <a href="#" target="blank"><img class="activities_image_2" src="Assets/notredame.jpg" alt="Notre-Dame-de-la-Garde"></a>
-            <h4 class="activities_image_heading_2">Notre-Dame-de-la-Garde</h4>
-        </div>
-      </div>
-
-      <div class="card_B">
-        <div class="small_card">
-          <a href="#" target="blank"><img class="activities_image_2" src="Assets/longchamppark.jpg" alt="Longchamp Park"></a>
-            <h4 class="activities_image_heading_2">Longchamp Park</h4>
-        </div>
-      </div>
-    </div>
-  </div>
+  </section>
 
 
   <!--Footer-->
 
-  
-  <div class="footer_container">
-    <nav_2>
-      <ul class="footer_list">
-        <h3 class="nav_header">About</h3>
-        <li><a href="#" target="blank">site map</a></li>
-        <li><a href="#" target="blank">General Terms and Conditions</a></li>
-        <li><a href="#" target="blank">Data and Privacy</a></li>
+  <div id="footer">
+    <div class="footer_card">
+      <div class="footer_heading">
+        <h3><b>About</b></h3>
+      </div>
+      <div class="footer_list">
+        <ul>
+          <li><a href="#">Site Map</a></li>
+          <li><a href="#">General Terms and Conditions</a></li>
+          <li><a href="#">Data and Privacy</a></li>
+        </ul>
+      </div>
+    </div>
 
-        <h3 class="nav_header">Our Accommodations</h3>
-        <li><a href="#" target="blank">Quality Assessment</a></li>
-        <li><a href="#" target="blank">You have a hotel?</a></li>
+    <div class="footer_card">
+      <div class="footer_heading">
+        <h3><b>Our Accommodations</b></h3>
+      </div>
+      <div class="footer_list">
+        <ul>
+          <li><a href="#">Quality Assessment</a></li>
+          <li><a href="#">You have a hotel?</a></li>
+        </ul>
+      </div>
+    </div>
 
-        <h3 class="nav_header">Assistance</h3>
-        <li><a href="#" target="blank">Help Desk</a></li>
-        <li><a href="#" target="blank">Contact Us</a></li>
-      </ul>
-    </nav_2>
+    <div class="footer_card">
+      <div class="footer_heading">
+        <h3><b>Assistance</b></h3>
+      </div>
+      <div class="footer_list">
+        <ul>
+          <li><a href="#">Help Desk</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
   </div>
+
 </body>
 </html>
